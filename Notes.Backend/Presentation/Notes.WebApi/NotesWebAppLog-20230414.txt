@@ -1,0 +1,50 @@
+2023-04-14 22:43:36.893 +04:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-04-14 22:43:36.970 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-14 22:43:36.989 +04:00 [INF] User profile is available. Using 'C:\Users\Skuld\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-14 22:43:37.110 +04:00 [INF] Now listening on: https://localhost:7249
+2023-04-14 22:43:37.110 +04:00 [INF] Now listening on: http://localhost:5111
+2023-04-14 22:43:37.110 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 22:43:37.110 +04:00 [INF] Hosting environment: Development
+2023-04-14 22:43:37.110 +04:00 [INF] Content root path: T:\Repositories\Net\Notes.Backend\Presentation\Notes.WebApi
+2023-04-14 22:43:56.739 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7249/api/note - -
+2023-04-14 22:43:56.781 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7249/api/note - - - 404 0 - 43.1640ms
+2023-04-14 22:44:21.167 +04:00 [INF] Application is shutting down...
+2023-04-14 22:44:24.041 +04:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-04-14 22:44:24.117 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-14 22:44:24.132 +04:00 [INF] User profile is available. Using 'C:\Users\Skuld\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-14 22:44:24.250 +04:00 [INF] Now listening on: https://localhost:7249
+2023-04-14 22:44:24.250 +04:00 [INF] Now listening on: http://localhost:5111
+2023-04-14 22:44:24.250 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 22:44:24.251 +04:00 [INF] Hosting environment: Development
+2023-04-14 22:44:24.251 +04:00 [INF] Content root path: T:\Repositories\Net\Notes.Backend\Presentation\Notes.WebApi
+2023-04-14 22:44:42.712 +04:00 [INF] Application is shutting down...
+2023-04-14 22:44:52.463 +04:00 [INF] Entity Framework Core 5.0.5 initialized 'NotesDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-04-14 22:44:52.535 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-14 22:44:52.549 +04:00 [INF] User profile is available. Using 'C:\Users\Skuld\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-14 22:44:52.664 +04:00 [INF] Now listening on: https://localhost:7249
+2023-04-14 22:44:52.664 +04:00 [INF] Now listening on: http://localhost:5111
+2023-04-14 22:44:52.664 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-14 22:44:52.664 +04:00 [INF] Hosting environment: Development
+2023-04-14 22:44:52.664 +04:00 [INF] Content root path: T:\Repositories\Net\Notes.Backend\Presentation\Notes.WebApi
+2023-04-14 22:44:56.755 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7249/api/note - -
+2023-04-14 22:44:56.794 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7249/api/note - - - 404 0 - 40.2665ms
+2023-04-14 22:45:29.499 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7249/api/v1/note - -
+2023-04-14 22:45:29.502 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7249/api/v1/note - - - 404 0 - 2.9232ms
+2023-04-14 22:46:20.870 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7249/index.html - -
+2023-04-14 22:46:20.904 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7249/index.html - - - 200 - text/html;charset=utf-8 34.1419ms
+2023-04-14 22:46:20.972 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - -
+2023-04-14 22:46:21.020 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.6916ms
+2023-04-14 22:46:26.395 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/1/Note - -
+2023-04-14 22:46:26.399 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-14 22:46:26.401 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-04-14 22:46:26.401 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/1/Note - - - 401 0 - 5.7312ms
+2023-04-14 22:46:27.809 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/1/Note - -
+2023-04-14 22:46:27.810 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-14 22:46:27.810 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-04-14 22:46:27.810 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/1/Note - - - 401 0 - 0.8435ms
+2023-04-14 22:47:15.816 +04:00 [INF] Application is shutting down...
